@@ -17,7 +17,7 @@ int main() {
     cout << "Enter the hours: ";
     cin >> hours;
     
-    //2 get the rate
+    //2 get the hourly rate
     cout << "Enter the rate: ";
     cin >> rate;
     
