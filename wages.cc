@@ -18,6 +18,12 @@ int main() {
     cin >> hours;
     
     //2 get the hourly rate
+    if (hours < 0) {
+         cout << "Invalid number of hours" << endl;
+         exit(1);
+    }
+
+    //2 get the rate
     cout << "Enter the rate: ";
     cin >> rate;
     
